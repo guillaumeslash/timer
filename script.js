@@ -5,7 +5,7 @@ document.getElementById("timer").innerHTML = "Lezgongue";
 const interval = setInterval(function() {
    if (timer > 0) {
       timer--;
-      document.getElementById("timer").innerHTML = toTime(timer);
+      document.getElementById("timer").innerHTML = toTime(timer).substring(3);
    }
    else {
       clearInterval(interval);

@@ -7,7 +7,7 @@
 }
 
 #timer {
-  font-size: 80px;
+  font-size: 300px;
 }
 
 button {
@@ -15,7 +15,7 @@ button {
 }
 
 .add {
-  color: green;
+  color: aqua;
 }
 .minus{
   color: red;
